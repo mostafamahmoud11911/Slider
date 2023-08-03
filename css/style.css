@@ -1,0 +1,47 @@
+.item {
+  cursor: pointer;
+}
+.item .cap {
+  position: absolute;
+  bottom: 20px;
+  right: 30px;
+  left: 30px;
+  background-color: #fff;
+  transition: 1s;
+}
+.item:hover .cap {
+  transform: scale(1.1, 1.1);
+}
+.layer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: none;
+  align-items: center;
+  justify-content: center;
+}
+.inner-item {
+  background-image: url(../img/img-1.jpg);
+  background-size: cover;
+  width: 400px;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  position: relative;
+}
+i{
+    color: #fff;
+    cursor: pointer;
+    font-size: 20px;
+}
+#close{
+position: absolute;
+top: 10px;
+right: 10px;
+}
+
